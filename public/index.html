@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>test</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="inc/styling/css/index.css" type="text/css">
+    </head>
+    <body>
+        <div id="swoop">
+            <header>
+                <h3>ARK<span>SERVER</span></h3>
+                <a href="#" target="_blank"><i class="fab fa-discord"></i></a>
+                <div class="floatFixer"></div>
+            </header>
+        </div>
+        <div class="floatFixer"></div>
+        <section>
+            <article id="server0">
+                <div class="head">
+                    <h3 class="nameField">Name</h3>
+                </div>
+                <div class="serverImage">
+                    <div class="playerListButton" onclick="showPlayerlist(0);">Playerlist</div>
+                    <img class="mapLogoField" src="inc/images/theisland.jpg" alt="The Island logo">
+                </div>
+                <div class="information">
+                    <h4 class="ipField">Server IP: <span class="serverIP">0.0.0.0:0000</span></h4>
+                    <p class="playerField">Player: <span class="players">0/0</span></p>
+                    <div class="floatFixer"></div>
+                </div>
+            </article>
+            <article id="server0">
+                <div class="head">
+                    <h3 class="nameField">Name</h3>
+                </div>
+                <div class="serverImage">
+                    <div class="playerListButton" onclick="showPlayerlist(0);">Playerlist</div>
+                    <img class="mapLogoField" src="inc/images/theisland.jpg" alt="The Island logo">
+                </div>
+                <div class="information">
+                    <h4 class="ipField">Server IP: <span class="serverIP">0.0.0.0:0000</span></h4>
+                    <p class="playerField">Player: <span class="players">0/0</span></p>
+                    <div class="floatFixer"></div>
+                </div>
+            </article>
+        </section>
+        <div class="floatFixer"></div>
+        <!-- Rules tab -->
+        <section id="rulesTab">
+            <div id="rulesHead">
+                <h1>Rules</h1>
+            </div>
+            <div id="rules">
+                <p>No bullying, sexism, racism, homophobia or any other hate-based chatting.</p><br>
+                <p>Killing passive tames ain't allowed nor is it allowed to drown them.</p><br>
+                <p>Repeatedly raiding the same tribe ain't allowed.</p><br>
+                <p>blockage of caves & obelisks ain't allowed.</p><br><br>
+
+                <p>Treat others as you'd like to be treated yourself.</p>
+            </div>
+        </section>
+        <div class="floatFixer"></div>
+        <!-- Contact tab -->
+        <section id="contactTab">
+            <div id="contactHead">
+                <h1>Contact</h1>
+            </div>
+            <div id="contact">
+                <form onsubmit="event.preventDefault();">
+                    <input type="text" placeholder="Your Email" name="email" id="contactEmail">
+                    <input type="text" placeholder="Subject" name="subject" id="contactSubject">
+                    <textarea placeholder="Message.." name="message" id="contactMessage"></textarea>
+                    <input type="submit" value="Send" id="submitButton">
+                </form>
+            </div>
+        </section>
+        <div class="floatFixer"></div>
+
+        <!-- footer -->
+        <div id="footer">
+            <p>By Kasper A. Pedersen</p>
+        </div>
+
+        <script src="inc/styling/js/index.js"></script>
+    </body>
+</html>

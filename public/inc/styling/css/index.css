@@ -261,3 +261,54 @@ input[type="submit"] {
 #footer>p {
     color: rgba(34,36,38,0.3);
 }
+
+/* -- Scrollbar -- */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #161719;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(222, 205, 147, 1);
+}
+
+/* -- Desktop version -- */
+@media only screen and (min-width: 500px) {
+    section>article {
+        float: left;
+        width: calc(50% - 10px);
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    section>article {
+        float: left;
+        width: calc(33.3% - 10px);
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    
+    #rulesTab>#rulesHead {
+        width: 30%;
+        float:left;
+    }
+
+    #rulesTab>#rules {
+        width: 70%;
+        float: left;
+    }
+
+    #contactTab>#contactHead {
+        width: 30%;
+        float: right;
+    }
+
+    #contactTab>#contact {
+        width: 70%;
+        float: left;
+    }
+}
